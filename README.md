@@ -1,8 +1,8 @@
-# dataset
+# lines
 
 # Running on Local Machine
 
-In main directory (dataset) folder open cmd and make a new environment, activate this environment and then install all these libraries in current environment. 
+In main directory (lines) folder open cmd and make a new environment, activate this environment and then install all these libraries in current environment. 
 
 eg: 
 - install required python and pip and then 
@@ -31,7 +31,7 @@ Now make this directory structure.
 
 # Directory structure
 <pre>
-dataset/
+lines/
   PUCIT_OHUL
     -- train_lines/
     -- test_lines/
