@@ -73,7 +73,8 @@ First you generate all pickle files by using this command:
 
 - python generate_pickle_files.py (make sure you should have in same directory where this file exists)
 
--for train:
-python CALText.py --mode=train --dataset=PUCIT_OHUL --alpha_reg=1
--for test: 
-python CALText.py --mode=test --dataset=PUCIT_OHUL --alpha_reg=0
+For train use this command:
+- python CALText.py --mode=train --dataset=PUCIT_OHUL --alpha_reg=1
+  
+For test use this command: 
+- python CALText.py --mode=test --dataset=PUCIT_OHUL --alpha_reg=0
