@@ -141,14 +141,14 @@ def load_data(imgfolder,labelfile,dictionary):
         print("Ground-truth in numeric representation: "+str(xx).strip('[]'))
 
         # Set following condition to False in order to load all data without visualizing each image and ground-truth
-        
+        '''
         if True:
-          print("Close the image to see the next image or press Ctrl-C to exit from terminal.")
+          print("Close the image to see the next image or press Ctrl-C to exit from terminal.")	
           plt.imshow(img, cmap="gray")
           plt.title((str(xx).strip('[]')+"\n"+caption), color='b')
           plt.axis('off')
           plt.show()
-        
+        '''
         print("----------------------------------------------")
     print(n)
     return InputImages, ImagesLabels  
