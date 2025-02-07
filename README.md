@@ -63,7 +63,7 @@ lines/
     -- current_best_model.ckpt  <== checkpoint file for currently best performing model on validation set
 </pre>
 
-# How to train on dataset
+# Dataset
 
 PUCIT Offline Handwritten Urdu Lines (PUCIT-OHUL) Dataset and Ground Truth files: http://faculty.pucit.edu.pk/nazarkhan/work/urdu_ohtr/pucit_ohul_dataset.html
    
