@@ -12,7 +12,7 @@ eg:
 After activation now you can install all requirements in this environment. 
 
 Requirements:
-- Python 3.6.7
+- Python 3.6.7 (You can download this version by this link: https://www.python.org/ftp/python/3.6.7/python-3.6.7-amd64.exe)
 - Pandas 0.22.0
 - Matplotlib 2.2.2
 - Argparse
