@@ -65,11 +65,13 @@ models/
 
 # How to train on dataset
 
-1. You have to use ground truth files for train and test labels by this link:
+1. You can download excel ground truth files for train and test labels by this link:
    - https://docs.google.com/spreadsheets/d/1OZkN8Izl0l_CJq-eA7Iogt8fxlseFsak/edit?usp=sharing&ouid=106359609616529391422&rtpof=true&sd=true
    - https://docs.google.com/spreadsheets/d/1vot97THpCyUE30xPWA5LkXOWuAAhKYFe/edit?usp=sharing&ouid=106359609616529391422&rtpof=true&sd=true
+2. You can download dataset images folder by using this links:
+   - 
      
-2. Just place all pickle files, dataset, ground-truth files into related folders and then run following commands in current environment. 
+3. Just place all pickle files, dataset, ground-truth files into related folders and then run following commands in current environment. 
 
 Now place these commands in current environment cmd. 
 
