@@ -32,7 +32,7 @@ Now make this directory structure.
 # Directory structure
 <pre>
 dataset/
-  -- PUCIT_OHUL
+  PUCIT_OHUL
     -- train_lines/
     -- test_lines/
     -- train_lables_v2.xlsx
