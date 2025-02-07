@@ -65,13 +65,18 @@ models/
 
 # How to train on dataset
 
-1. You can download excel ground truth files for train and test labels by this link:
-   - https://docs.google.com/spreadsheets/d/1OZkN8Izl0l_CJq-eA7Iogt8fxlseFsak/edit?usp=sharing&ouid=106359609616529391422&rtpof=true&sd=true
-   - https://docs.google.com/spreadsheets/d/1vot97THpCyUE30xPWA5LkXOWuAAhKYFe/edit?usp=sharing&ouid=106359609616529391422&rtpof=true&sd=true
-2. You can download dataset images folder by using this links:
-   - 
-     
-3. Just place all pickle files, dataset, ground-truth files into related folders and then run following commands in current environment. 
+PUCIT Offline Handwritten Urdu Lines (PUCIT-OHUL) Dataset and Ground Truth files: http://faculty.pucit.edu.pk/nazarkhan/work/urdu_ohtr/pucit_ohul_dataset.html
+   
+# How to train on dataset
+1. Place all training line images in the folder "train_lines"
+2. Place all testing line images in the folder "test_lines"
+3. Place all training ground-truth labels in the file "train_labels_v2.xlsx" using 2 columns. Column 1 contains image name/number. Column 2 contains the ground-truth label of the text contained in the image.
+4. Place all testing ground-truth labels in the file "test_labels_v2.xlsx" using 2 columns. Column 1 contains image name/number. Column 2 contains the ground-truth label of the text contained in the image.
+5. Run "generate_pickle_files.py" after specifying validation indices (if required). This will place all training, testing and validation images and labels in pickle format in the 'data/PUCIT_OHUL/' folder.
+6. For training, set mode="train", and run "CALText.py". This will place the trained model(s) in 'models/' folder.
+7. For testing, set mode="test", set path of the model to be used and run "CALText.py".
+8. For Contextual Attention, set alpha_reg=1, while training.
+9. For Contextual Attention Localization, set alpha_reg=0, while testing.
 
 Now place these commands in current environment cmd. 
 
